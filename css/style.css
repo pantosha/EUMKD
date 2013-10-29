@@ -33,7 +33,7 @@ body {
 }
 
 div#header {
-	height: 200px;
+	min-height: 200px;
 	background: #0f4f81;
 	border-bottom: 1px solid #223355;
 	border-top: 1px solid #223355;
