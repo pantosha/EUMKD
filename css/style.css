@@ -316,3 +316,16 @@ div#header-space {
 	border-top: 1px solid #ccc;
 }
 
+table#rating_plan td p{
+    text-align: left;
+    font-style: normal;
+    font-size: 13px;
+}
+table#rating_plan td p span{
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+.underline{
+    text-decoration: underline;
+}
