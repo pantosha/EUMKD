@@ -15,7 +15,13 @@
 h1{
     font-size: 1.5em;
 }
-
+.image{
+    margin: 0 auto;
+    display: table;
+}
+.image > .label{
+    text-align: center;
+}
 aside{
 	background: #f7f7f7;
 	border: 1px solid #ccc;

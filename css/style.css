@@ -250,7 +250,7 @@ div#wrapper img {
 	border: 20px solid #f7f7f7;
 	max-width: 500px;
 	display: block;
-	margin: 20px 0px 20px 20px;
+	margin: 0 auto;
 }
 
 div#info {
