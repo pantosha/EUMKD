@@ -22,6 +22,7 @@ h1{
 .image > .label{
     text-align: center;
 }
+
 aside{
 	background: #f7f7f7;
 	border: 1px solid #ccc;
@@ -42,3 +43,8 @@ section{
     margin-top: 40px;
 }
 
+table.table-primary td {
+	vertical-align: top;
+	text-align: left !important;
+	padding: 5px;
+}
