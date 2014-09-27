@@ -55,3 +55,8 @@ table.table-primary td {
 	text-align: left !important;
 	padding: 5px;
 }
+
+cite {
+    font: inherit;
+    font-weight: bold;
+}
