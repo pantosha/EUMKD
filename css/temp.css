@@ -23,6 +23,13 @@ h1{
     text-align: center;
 }
 
+.table {
+    text-align: center;
+}
+.table .label {
+    display: inline-block;
+}
+
 aside{
 	background: #f7f7f7;
 	border: 1px solid #ccc;
