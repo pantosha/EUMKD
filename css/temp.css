@@ -1,5 +1,8 @@
 .part img:hover{
+    -o-filter:  grayscale(0%);
+    -moz-filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
+    filter: none;
 }
 
 .part img{
@@ -8,8 +11,10 @@
     -o-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
-	-webkit-filter: grayscale(100%);
-	filter: gray;
+    -o-filter:  grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    filter: gray;
 }
 
 h1{
