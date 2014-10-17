@@ -1,16 +1,27 @@
-.part img:hover{
+.centered {
+    text-align: center !important;
+}
+
+.centered > * {
+    display: inline-block !important;
+    *display: inline !important;
+    zoom: 1;
+}
+
+.part a:hover img {
     -o-filter:  grayscale(0%);
     -moz-filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     filter: none;
 }
 
-.part img{
+.part img {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
+
     -o-filter:  grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -20,11 +31,11 @@
 h1{
     font-size: 1.5em;
 }
-.image{
+.image {
     margin: 0 auto;
     display: table;
 }
-.image > .label{
+.image > .label {
     text-align: center;
 }
 
@@ -35,23 +46,23 @@ h1{
     display: inline-block;
 }
 
-.aside{
+.aside {
 	background: #f7f7f7;
 	border: 1px solid #ccc;
 	margin: 10px 0px;
 	padding: 5px 10px;
 }
 
-.aside h1{
+.aside h1 {
     font-size: 15px;
     color: #0e4e5a;
 }
 
-.aside li{
+.aside li {
     margin: 5px;
 }
 
-.section{
+.section {
     margin-top: 40px;
 }
 
