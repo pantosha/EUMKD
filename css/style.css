@@ -1,6 +1,6 @@
 * {  
 	font-family: "Lucida Grande", Arial, Helvetica, Sans-Serif;
-	color: #0;
+	color: #000;
 	line-height: 1.4285;
 	font-size: 14px;
 	font-weight: normal;
@@ -282,17 +282,18 @@ h6 {
 }
 
 div#navigation {
-	margin: 0px 30px 30px 30px;
-	padding-top: 20px;
+    padding: 10px 0;
 	border-top: 1px solid #ccc;
+    text-align: center;
 }
 
 div#navigation ul {
-	display: block;
-	width: 500px;
+    display: inline-block;
+    *display: inline;
+    zoom: 1;
 	height: 20px;
 	list-style: none;
-	margin: 10px auto;
+	margin: 0;
 }
 
 div#navigation ul li {
