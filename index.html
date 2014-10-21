@@ -8,6 +8,15 @@
 		<link rel="stylesheet" href="css/formalize.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/temp.css">
+        <script type="text/javascript">
+            function setGrayscaleFilter(element) {
+                element.src = element.src.replace(".jpg", "_gray.jpg");
+            }
+
+            function clearFilter(element) {
+                element.src = element.src.replace("_gray.jpg", ".jpg");
+            }
+        </script>
 	</head>
 	<body>
 		<div id="header">
@@ -53,25 +62,37 @@
 				<tr>
 					<td>
 						<div class="part">
-							<a class="img-ref" href="html/program.html"><img id="program" src="img/program.jpg"></a>
+							<a class="img-ref" href="html/program.html">
+                                <img src="img/program_gray.jpg"
+                                     onmouseover="clearFilter(this)" onmouseout="setGrayscaleFilter(this)">
+                            </a>
 						</div>
 					</td>
 
 					<td>
 						<div class="part">
-							<a class="img-ref" href="html/theory.html"><img src="img/theory.jpg"></a>
+							<a class="img-ref" href="html/theory.html">
+                                <img src="img/theory_gray.jpg"
+                                     onmouseover="clearFilter(this)" onmouseout="setGrayscaleFilter(this)">
+                            </a>
 						</div>
 					</td>
 
 					<td>
 						<div class="part">
-							<a class="img-ref" href="html/practice.html"><img src="img/practice.jpg"></a>
+							<a class="img-ref" href="html/practice.html">
+                                <img src="img/practice_gray.jpg"
+                                     onmouseover="clearFilter(this)" onmouseout="setGrayscaleFilter(this)">
+                            </a>
 						</div>
 					</td>
 
 					<td>
 						<div class="part">
-							<a class="img-ref" href="tests/LoginPage/login_page.htm" target="_blank"><img src="img/question.jpg"></a>
+							<a class="img-ref" href="tests/LoginPage/login_page.htm" target="_blank">
+                                <img src="img/question_gray.jpg"
+                                     onmouseover="clearFilter(this)" onmouseout="setGrayscaleFilter(this)">
+                            </a>
 						</div>
 					</td>
 				</tr>
@@ -110,5 +131,5 @@
 		<div id="footer">
 			&copy; БГУИР, 2014
 		</div>
-	</body>
+    </body>
 </html>
